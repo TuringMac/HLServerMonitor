@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerMonitor.Lib", "ServerMonitor.Lib\ServerMonitor.Lib.csproj", "{C168DC56-1757-4194-A14A-191D9D9D571E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerMonitor.NetworkAccess", "ServerMonitor.NetworkAccess\ServerMonitor.NetworkAccess.csproj", "{0C2AA597-4FC6-44B8-B347-8AB1490D73FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerMonitor.WPF", "ServerMonitor.WPF\ServerMonitor.WPF.csproj", "{AC44FFE8-7E6F-416A-A6F3-842881B946FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C168DC56-1757-4194-A14A-191D9D9D571E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C168DC56-1757-4194-A14A-191D9D9D571E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C168DC56-1757-4194-A14A-191D9D9D571E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C168DC56-1757-4194-A14A-191D9D9D571E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2AA597-4FC6-44B8-B347-8AB1490D73FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2AA597-4FC6-44B8-B347-8AB1490D73FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2AA597-4FC6-44B8-B347-8AB1490D73FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2AA597-4FC6-44B8-B347-8AB1490D73FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC44FFE8-7E6F-416A-A6F3-842881B946FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC44FFE8-7E6F-416A-A6F3-842881B946FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC44FFE8-7E6F-416A-A6F3-842881B946FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC44FFE8-7E6F-416A-A6F3-842881B946FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://turingmac.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ServerMonitor.Lib\\ServerMonitor.Lib.csproj
+		SccProjectName1 = ServerMonitor.Lib
+		SccLocalPath1 = ServerMonitor.Lib
+		SccProjectUniqueName2 = ServerMonitor.NetworkAccess\\ServerMonitor.NetworkAccess.csproj
+		SccProjectName2 = ServerMonitor.NetworkAccess
+		SccLocalPath2 = ServerMonitor.NetworkAccess
+		SccProjectUniqueName3 = ServerMonitor.WPF\\ServerMonitor.WPF.csproj
+		SccProjectName3 = ServerMonitor.WPF
+		SccLocalPath3 = ServerMonitor.WPF
+	EndGlobalSection
+EndGlobal

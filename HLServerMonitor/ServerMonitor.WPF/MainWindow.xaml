@@ -1,0 +1,29 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ServerMonitor.WPF" x:Class="ServerMonitor.WPF.MainWindow"
+        Title="Обозреватель серверов HL1" Height="325" Width="426" Loaded="Window_Loaded" Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Обновить" Width="75" Click="Button_Click"/>
+        <Label Name="lblRemain" HorizontalAlignment="Right" Foreground="White"/>
+        <ListBox ItemsSource="{Binding}" Grid.Row="1" Background="{x:Null}" HorizontalContentAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <local:ServerDetails DataContext="{Binding}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <!--<ItemsControl ItemsSource="{Binding}" Grid.Row="1" Background="{x:Null}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <local:ServerDetails Name="first" DataContext="{Binding}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>-->
+
+    </Grid>
+</Window>
